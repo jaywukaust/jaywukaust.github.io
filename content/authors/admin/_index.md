@@ -23,11 +23,11 @@ bio: Dai-Jie Wu is a Ph.D. cadidate at KAUST, researching 3D vision.
 
 education:
   courses:
-  - course: Ph.D. in CS
-    institution: KAUST
-    link: https://www.kaust.edu.sa/en
-    logo: "kaust.png"
-    year: 2019 - present
+  - course: NDS in CS
+    institution: CSU Global
+    link: https://csuglobal.edu/
+    logo: "CSUG.png"
+    year: 2022 - present
   - course: B.Eng in ME (3.9/4.3)
     institution: XJTU
     link: https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University
@@ -57,27 +57,24 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:guocheng.qian@kaust.edu.sa".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?hl=zh-CN&user=DUDaxg4AAAAJ
+  link: "mailto:bbb50111@gmail.com"  # For a direct email link, use "mailto:guocheng.qian@kaust.edu.sa".
 - icon: github
   icon_pack: fab
-  link: https://github.com/guochengqian
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/guochengqian/
-- icon: twitter 
-  icon_pack: fab
-  link: https://twitter.com/guocheng_qian
-- icon: zhihu
-  icon_pack: fab
-  link: https://www.zhihu.com/people/GordonQian/
+  link: https://github.com/jaywu109
+# - icon: linkedin
+#   icon_pack: fab
+#   link: https://www.linkedin.com/in/guochengqian/
+# - icon: twitter 
+#   icon_pack: fab
+#   link: https://twitter.com/guocheng_qian
+# - icon: zhihu
+#   icon_pack: fab
+#   link: https://www.zhihu.com/people/GordonQian/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/resume.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/resume.pdf
 
 
 # Organizational groups that you belong to (for People widget)

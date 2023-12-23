@@ -8,8 +8,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
-title = "Selected Publications"
-subtitle = "Check my full publication at [Google Scholar](https://scholar.google.com/citations?user=DUDaxg4AAAAJ&hl=en)"
+title = "Research Projects and Publications"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -33,7 +32,7 @@ subtitle = "Check my full publication at [Google Scholar](https://scholar.google
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 4
   
 [design.background]
   # Apply a background color, gradient, or image.

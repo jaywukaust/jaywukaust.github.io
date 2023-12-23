@@ -34,15 +34,6 @@
       {{ end }}
     {{ end }}
 
-    {{/* Maps JS. */}}
-    {{ if eq site.Params.map.engine 1 }}
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.map.api_key }}"></script>
-      {{ if ($scr.Get "use_cdn") }}
-      {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.gmaps.url $js.gmaps.version) $js.gmaps.sri | safeHTML }}
-      {{ end }}
-    {{ else if and (or (eq site.Params.map.engine 2) (eq site.Params.map.engine 3)) ($scr.Get "use_cdn") }}
-      {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.leaflet.url $js.leaflet.version) $js.leaflet.sri | safeHTML }}
-    {{ end }}
 
     {{/* Initialise code highlighting. */}}
     {{ if $.Scratch.Get "highlight_enabled" }}
@@ -149,14 +140,6 @@
     {{ $js_bundle := slice $js_bundle_head $js_bundle | resources.Concat "js/academic.min.js" | fingerprint "md5" }}
     <script src="{{ $js_bundle.RelPermalink }}"></script>
 
-    <section class="tail-section">
-        <div class="container">
-        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=58dmduyh8a4&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=0" async="async"></script>
-        <!--<div class="watermark-footer" style="background-image:url('{{ $.Site.BaseURL }}/img/{{ .Site.Params.watermark }}');"></div>-->
-        <img src="/img/{{ .Site.Params.watermark }}" class="signature-banner">
-    </div>
-
-    </section>
 
 
 
