@@ -5,7 +5,7 @@ date = 2022-08-15T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. ["Bob Smith", "__**David Jones**__"].
-authors = ["__**Guocheng Qian**__", "Xingdi Zhang", "Abdullah Hamdi", "Bernard Ghanem"]
+authors = ["__**Dai-Jie Wu**__", "Xingdi Zhang", "Abdullah Hamdi", "Bernard Ghanem"]
 
 # Publication type.
 # Legend:

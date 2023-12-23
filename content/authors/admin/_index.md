@@ -1,7 +1,7 @@
 ---
 # Display name
-name: Guocheng Qian
-namecn: 钱国成
+name: Dai-Jie Wu
+namecn: 
 
 # Username (this should match the folder name)
 authors:
@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate in Computer Science
+role: Research Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
   url: "https://www.kaust.edu.sa/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Guocheng Qian (Gordon) is a Ph.D. cadidate at KAUST, researching 3D vision. 
+bio: Dai-Jie Wu is a Ph.D. cadidate at KAUST, researching 3D vision. 
 
 education:
   courses:

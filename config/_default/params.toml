@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Guocheng Qian Homepage - 钱国成的个人主页"
+description = "Dai-Jie Wu Homepage"
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -119,7 +119,6 @@ coordinates = {latitude = "22.3084322", longitude = "39.102716"}
 contact_links = [
   #{icon = "envelope", icon_pack = "fas", name = "guocheng.qian@kaust.edu.sa", link="mailto:guocheng.qian@kaust.edu.sa"},
   {icon = "github", icon_pack = "fab", name = "guochengqian", link = "https://github.com/guochengqian"},
-  {icon = "zhihu", icon_pack = "fab", name = "登高居士", link = "https://www.zhihu.com/people/GordonQian/"},
   #{icon = "weixin", icon_pack = "fab", name = "qgc380701276", link = "img/wechat.jpeg"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   ]
