@@ -27,28 +27,23 @@ education:
     institution: CSU Global
     link: https://csuglobal.edu/
     logo: "CSUG.png"
-    year: 2022 - present
-  - course: B.Eng in ME (3.9/4.3)
-    institution: XJTU
-    link: https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University
-    logo: "xjtu.png"
-    year: 2014 - 2018
+    year: 2022 - now
+  - course: B.S. in ME & Stat.
+    institution: NCKU
+    link: https://en.wikipedia.org/wiki/National_Cheng_Kung_University
+    logo: "NCKU.png"
+    year: 2016 - 2021
   - course: Exchange Student 
-    institution: HKUST
-    link: https://www.ust.hk/
-    logo: "hkust.png"
-    year: 2017 Spring
+    institution: Beihang
+    link: https://en.wikipedia.org/wiki/Beihang_University
+    logo: "Beihang.png"
+    year: 2018 Summer
 
 interests:
+  - item: Robotics
+  - item: Embodied AI
   - item: 3D Perception
-    works:  <a target="_blank" href="https://arxiv.org/abs/2206.04670">PointNeXt</a>, <a target="_blank" href="https://arxiv.org/abs/1910.06849">DeepGCNs</a>
   - item: 3D Generation 
-    works: <a target="_blank" href="https://guochengqian.github.io/project/magic123">Magic123</a>
-  - item: Efficient/Mobile Deep Learning
-    works: <a target="_blank" href="https://arxiv.org/abs/2110.10538">ASSANet</a> 
-  # - 3D Generation: 
-  # - Efficient Neural Network: <a target="_blank" href="https://arxiv.org/abs/2110.10538">ASSANet</a> 
-  # - 3D Perception: <a target="_blank" href="https://arxiv.org/abs/2206.04670">PointNeXt</a>, <a target="_blank" href="https://arxiv.org/abs/1910.06849">DeepGCNs</a>
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

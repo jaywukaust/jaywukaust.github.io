@@ -74,7 +74,7 @@
 
     <!-- {{ $person_page.Content}} -->
     <p>
-      Hi welcome! I am a Ph.D. candidate in Computer Science at <a target="_blank" href="https://www.kaust.edu.sa/en"> KAUST</a>, under the supervision of <a target="_blank" href="http://www.bernardghanem.com/">Prof. Bernard Ghanem</a>. 
+      Hi there! I am a Ph.D. candidate in Computer Science at <a target="_blank" href="https://www.kaust.edu.sa/en"> KAUST</a>, under the supervision of <a target="_blank" href="http://www.bernardghanem.com/">Prof. Bernard Ghanem</a>. 
       I am now a research scientist intern at <a target="_blank" href="https://research.snap.com/"> Snap Research</a>, working on large foundation models for text/image-to-3D generation. 
       During my Ph.D. studies, I was fortunate to intern at serveral leading research institutions, including <a target="_blank" href="https://tech.facebook.com/reality-labs/">Meta Reality Lab</a>, <a target="_blank" href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>, <a target="_blank" href="https://en.megvii.com/">Megvii Research</a>, and <a target="_blank" href="https://www.sensetime.com/en/">SenseTime Research</a>. 
       Prior to that, I received my B.Eng degree with the highest undergraduate honor from <a target="_blank" href="https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University">Xi'an Jiaotong University (XJTU)</a> in 2018. 
@@ -97,7 +97,7 @@
               </a>
               <div class="description">
                 <p class="course">{{ .course }}</p>
-                <a href="{{ .link }}" target="_blank"><p class="institution">{{ .institution }} , {{.year}}</p></a>
+                <a href="{{ .link }}" target="_blank"><p class="institution">{{ .institution }}, {{.year}}</p></a>
               </div>
           </li>
           {{ end }}
@@ -112,7 +112,7 @@
           {{ range . }}
           <div class="description">
             <li class="course">{{ .item }}</li>
-            <div>{{ .works | markdownify | emojify }}</div>
+            <!-- <div>{{ .works | markdownify | emojify }}</div> -->
           </div>
           {{ end }}
         </ul>
