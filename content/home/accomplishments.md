@@ -19,54 +19,58 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "KAUST"
-  organization_url = "https://www.kaust.edu.sa/en"
-  title = "CEMSE Dean’s List  Award (year 21/22)"
+  organization = "AIdea Speech Enhancement Challenge"
+  title = "3rd Place"
   url = ""
   certificate_url = ""
   date_start = "2022-05-01"
   date_end = ""
-  description = "Awarded to Top 20%."
+  description = "Restructured and improved transformer-based speech enhancement model with PyTorch and Librosa and configured distributed training pipeline with PyTorch Lightning for a faster experiment."
 
 [[item]]
-  organization = "KAUST"
-  organization_url = "https://www.kaust.edu.sa/en"
-  title = "CEMSE Research Excellence Award (year 21/22)"
+  organization = "ICCV 2021"
+  title = "Silver Medal in Landmark Retrieval Challenge"
   url = ""
   certificate_url = ""
-  date_start = "2021-12-01"
+  date_start = "2021-10-01"
   date_end = ""
-  description = "Awarded to less than a handful of students, following nominations and based on research achievement. "
+  description = "Designed a post-processing pipeline with database-side feature augmentation and query expansion to further improve mean average precision by 19.5%."
 
 [[item]]
-  organization = "KAUST"
-  organization_url = "https://www.kaust.edu.sa/en"
-  title = "KAUST Fellowship for MS and PhD Studies"
+  organization = "NCKU ME Capstone Robotic Competition"
+  title = "Silver Medal"
   url = ""
   certificate_url = ""
-  date_start = "2019-06-01"
-  date_end = "2023-12-31"
-  description = "Fellowship covering ​full tuition support, monthly living allowance, housing, and medical coverage."
-
-
-[[item]]
-  organization = "Xi'an Jiaotong University"
-  organization_url = "https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University"
-  title = "Outstanding Undergraduate"
-  url = ""
-  certificate_url = ""
-  date_start = "2017-12-01"
+  date_start = "2019-05-01"
   date_end = ""
-  description = "Highest undergraduate honor awarded to 10 selected undergraduates"
+  description = "Led a team in constructing a complete robot from the ground up, including designing mechanical systems, configuring electrical circuits, and developing programming code for its control."
 
 [[item]]
-  organization = "Ministry of Education, China"
-  organization_url = ""
-  title = "National First Class Scholarship"
+  organization = "Industrial Technology Research Institute"
+  title = "Undergraduate Research Fellowship"
   url = ""
   certificate_url = ""
-  date_start = "2017-10-01"
+  date_start = "2018-09-01"
   date_end = ""
-  description = "Highest scholarship awarded to TOP 2% unversity student."  
+  description = "Secured a one-year research fellowship from the Industrial Technology Research Institute to conduct stress analysis research for laser conducting."
+[[item]]
+
+  organization = "National Electric Vehicle Innovation Design Competition"
+  title = "2nd Place"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-05-01"
+  date_end = ""
+  description = "Successfully built our first electric racing car in a year and raised funds of more than USD 6,000. Won 2nd place in the racing section and 3rd place in the technical report section in a national competition."
+  
+[[item]]
+  organization = "NCKU ME Department"
+  title = "Distinguished Freshman Scholarship"
+  url = ""
+  certificate_url = ""
+  date_start = "2016-09-01"
+  date_end = ""
+  description = "Awarded a 2,500 USD scholarship for academic achievements and potential."
+
 
 +++

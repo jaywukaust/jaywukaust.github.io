@@ -1,11 +1,11 @@
 +++
 
-title = "SGAS: Sequential Greedy Architecture Search"
-date = 2020-03-31T23:59:59
+title = "Cross-Modal and Cross-Domain Knowledge Transfer for Label-Free 3D Segmentation"
+date = 2023-09-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. ["Bob Smith", "__**David Jones**__"].
-authors = ["__**Dai-Jie Wu***__", "Guohao Li*", "Itzel C. Delgadillo*", "Matthias Müller", "Ali Thabet", "Bernard Ghanem"]
+authors = ["Jingyu Zhang", "Huitong Yang", "__**Dai-Jie Wu**__", "Jacky Keung", "Xuesong Li", "Xinge Zhu", "Yuexin Ma"]
 
 # Publication type.
 # Legend:
@@ -19,12 +19,11 @@ authors = ["__**Dai-Jie Wu***__", "Guohao Li*", "Itzel C. Delgadillo*", "Matthia
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR'2020)*."
-publication_short = "*CVPR'2020*"
+publication ="Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2023"
+publication_short = "*PRCV'23*"
 
 # Abstract and optional shortened version.
-abstract = "Architecture design has become a crucial component of successful deep learning. Recent progress in automatic neural architecture search (NAS) shows a lot of promise. However, discovered architectures often fail to generalize in the final evaluation. Architectures with a higher validation accuracy during the search phase may perform worse in the evaluation. Aiming to alleviate this common issue, we introduce sequential greedy architecture search (SGAS), an efficient method for neural architecture search. By dividing the search procedure into sub-problems, SGAS chooses and prunes candidate operations in a greedy fashion. We apply SGAS to search architectures for Convolutional Neural Networks (CNN) and Graph Convolutional Networks (GCN). Extensive experiments show that SGAS is able to find state-of-the-art architectures for tasks such as image classification, point cloud classification and node classification in protein-protein interaction graphs with minimal computational cost."
-abstract_short = ""
+abstract = "Current state-of-the-art point cloud-based perception methods usually rely on large-scale labeled data, which requires expensive manual annotations. A natural option is to explore the unsupervised methodology for 3D perception tasks. However, such methods often face substantial performance-drop difficulties. Fortunately, we found that there exist amounts of image-based datasets and an alternative can be proposed, i.e., transferring the knowledge in the 2D images to 3D point clouds. Specifically, we propose a novel approach for the challenging cross-modal and cross-domain adaptation task by fully exploring the relationship between images and point clouds and designing effective feature alignment strategies. Without any 3D labels, our method achieves state-of-the-art performance for 3D point cloud semantic segmentation on SemanticKITTI by using the knowledge of KITTI360 and GTA5, compared to existing unsupervised and weakly-supervised baselines."
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -49,18 +48,12 @@ slides = ""
 
 # Tags (optional).
 # Set tags = [] for no tags, or use the form tags = ["A Tag", "Another Tag"] for one or more tags.
-tags = ["neural architecture search", "graph convolutional network", "3D", "point cloud"]
+tags = ["LiDAR Segmentation", "Domain Adaptation", "Label-efficient"]
 
 # Links (optional).
-url_project = "https://www.deepgcns.org/auto/sgas"
-url_pdf = "https://arxiv.org/abs/1912.00195"
-url_preprint = "https://arxiv.org/abs/1912.00195"
-url_code = "https://github.com/lightaime/sgas"
-#url_dataset = ""
-url_slides = "https://docs.google.com/presentation/d/1f2djE-yfjXJjF3G-6HDH7v_NNWDEeapsbGAr7bJKtBY/edit?usp=sharing"
-url_video = "https://youtu.be/I2ILmGJwO38"
-#url_poster = ""
-#url_source = ""
+url_pdf = "https://link.springer.com/chapter/10.1007/978-981-99-8435-0_37"
+url_preprint = "https://arxiv.org/abs/2309.10649"
+
 
 # Custom links (optional).
 # Uncomment line below to enable. For multiple links, use the form [{...}, {...}, {...}].
@@ -69,7 +62,7 @@ url_video = "https://youtu.be/I2ILmGJwO38"
 doi = ""
 
 # Does this page contain LaTeX math? (true/false)
-math = false
+math = true
 
 # To use, place an image named `featured.jpg/png` in your page's folder.
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width

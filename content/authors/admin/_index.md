@@ -24,17 +24,17 @@ bio: Dai-Jie Wu is a Ph.D. cadidate at KAUST, researching 3D vision.
 education:
   courses:
   - course: NDS in CS
-    institution: CSU Global
+    institution: Colorado State University Global
     link: https://csuglobal.edu/
     logo: "CSUG.png"
     year: 2022 - now
   - course: B.S. in ME & Stat.
-    institution: NCKU
+    institution: National Cheng Kung University
     link: https://en.wikipedia.org/wiki/National_Cheng_Kung_University
     logo: "NCKU.png"
     year: 2016 - 2021
   - course: Exchange Student 
-    institution: Beihang
+    institution: University
     link: https://en.wikipedia.org/wiki/Beihang_University
     logo: "Beihang.png"
     year: 2018 Summer
