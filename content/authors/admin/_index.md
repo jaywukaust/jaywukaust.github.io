@@ -34,7 +34,7 @@ education:
     logo: "NCKU.png"
     year: 2016 - 2021
   - course: Exchange Student 
-    institution: University
+    institution: Beihang University
     link: https://en.wikipedia.org/wiki/Beihang_University
     logo: "Beihang.png"
     year: 2018 Summer
